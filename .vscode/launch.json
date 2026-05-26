@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    
+    {
+      "name": "Debug pytest",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "args": [
+        "PW/pw1_pytest/test_pytest_automationexercise.py",
+        "-s",
+        "--headed"
+      ],
+      "env": { "PWDEBUG": "console" }
+    }
+  ]
+}
